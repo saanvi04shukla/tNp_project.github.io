@@ -1,0 +1,172 @@
+<!DOCTYPE html><!--The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--The charset attribute specifies the character encoding for the HTML document.The HTML5 specification 
+                            encourages web developers to use the UTF-8 character set, which covers almost all of the characters and 
+                            symbols in the world!-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--The viewport is the user's visible area of a web page. It varies with the device - 
+                                                                            it will be smaller on a mobile phone than on a computer screen.The width=device-width 
+                                                                            part sets the width of the page to follow the screen-width of the device.The initial-scale=1.0 
+                                                                            part sets the initial zoom level when the page is first loaded by the browser.-->
+    <link rel="stylesheet" href="\asset\home.css">
+    <!--<link rel="stylesheet" href="responsive.css">-->
+    <title>OMKAR</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="\asset\OMKARA.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <!--anchor tag(link) with the href followed by id(#) home depicts that"when clicked on home
+            About or any other tag would scroll to that partocular location -->
+            <!--alt displays the text when image is not loaded-->
+            <li><a href="#about">AboutUs</a></li>
+
+            <li class="dropdown">
+                <a href="#services">Services</a>
+                <div class="dropdown-content">
+                    <a href="#Ser1">Service 1</a>
+                    <a href="#Ser2">Service 2</a>
+                    <a href="#Ser3">Service 3</a> 
+                </div>
+            </li>
+            <li><a href="#contact">Connect</a></li>
+            
+            
+
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button><!--btn sm class is for small button-->
+
+        </div>
+
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+
+        </div>
+
+    </nav>
+
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Explore Comprehensive Cloud-Based Healthcare
+                    Software Solutions Tailored for Hospitals, Clinics,
+                    and Doctors.</p>
+                <div class="buttons">
+                    
+                    <a data-fancybox href="https://youtu.be/EnN6zQ0fbBk" class="banner-video-button">
+                        <span class="vid-btn">
+                             <button class="btn">Gallery</button>
+                        </span>
+                    </a>
+                </div>
+
+                
+
+
+            </div>
+
+            <div class="secondHalf">
+                <!--<img src="images.jpg" alt="hotel image">-->
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <section class="secRight" id="services">
+        <div class="para">
+        <p class="sectionTag text-big">
+            ABOUT US
+        </p>
+        <p class="sectionSubTag text-small">
+            Lorem ipsum, dol Enim cum praesentium deleniti ut soluta recusandae ea cupiditate, itaque dolore reiciendis sunt consequuntur nostrum quisquam dicta repellendus animi culpa incidunt nemo doloribus. A, fugit deserunt.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="luxuryimg.jpeg" alt="lap img" class="imgFluid">
+        </div>
+    </section>
+    <hr>
+    <section class="section section-left" ><!--id="about"-->
+        <div class="para">
+        <p class="sectionTag text-big">
+            VISION
+        </p>
+        <p class="sectionSubTag text-small">
+            Lorem ipsum, dol Enim cum praesentium deleniti ut soluta recusandae ea cupiditate, itaque dolore reiciendis sunt consequuntur nostrum quisquam dicta repellendus animi culpa incidunt nemo doloribus. A, fugit deserunt.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="destination.jpeg" alt="lap img" class="imgFluid">
+        </div>
+    </section>
+    <hr>
+    <section class="secRight">
+        <div class="para">
+        <p class="sectionTag text-big">
+            MISSION
+        </p>
+        <p class="sectionSubTag text-small">
+            Lorem ipsum, dol Enim cum praesentium deleniti ut soluta recusandae ea cupiditate, itaque dolore reiciendis sunt consequuntur nostrum quisquam dicta repellendus animi culpa incidunt nemo doloribus. A, fugit deserunt.
+        </p>
+        </div>
+        <div class="thumbnail">
+            <img src="dining.jpeg" alt="lap img" class="imgFluid">
+        </div>
+    </section>
+    <!--<section class="payment" id="payment">
+
+    </section>-->
+    <hr>
+    <section class="contact" id="contact">
+        <h2 class="text-center">Enquiry for Booking</h2>
+        <div class="form">
+            <input type="text" name="name" id="name" placeholder="enter your name">
+            <input type="text" name="phone" id="name" placeholder="enter your phone no.">
+            <input type="email" name="email" id="name" placeholder="enter your email">
+            <button class="btn btn-dark">Submit</button>
+
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            Copyright @2025 : All rights reserved;
+            
+        </p>
+          
+    </footer>
+    <script src="resp.js"></script>
+    
+
+    </section>
+
+</body>
+</html>
+<!-- <ul>
+    <li><a href="#dine">Dining</a></li>
+    <li><a href="#games">Games +</a>
+        <ul>
+            <li><a href="#pool">8 ball Pool</a></li>
+            <li><a href="#bowl">Bowling</a></li>
+            <li><a href="#snooker">Snooker</a></li>
+        </ul>   
+    </li>
+    <li><a href="#health">Aayurveda +</a>
+        <ul>
+            <li><a href="#detox">Detox</a></li>
+            <li><a href="#rejuvanate">Rejuvination</a></li>
+        </ul> 
+    </li>
+</ul>
+*/
+<ul>
+    <li><a href="#month">Silver</a></li>
+    <li><a href="#year">Gold</a></li>
+    <li><a href="#premium">Platinum</a></li>
+</ul> 
+ -->
